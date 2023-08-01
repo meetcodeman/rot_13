@@ -69,15 +69,18 @@ git clone https://github.com/meetcodeman/rot_13.git
   for running local it would become `http://localhost:5000/api/v1/string_rotation`
 
 ### Request Payload
-  {
+```javascript
+{
       "stringRotation": {
       "originalString": "This is a test message"
     }
-  }
+}
+```
 ### Response Payload
-  {
+```javascript
+{
     "stringRotation": {
       "originalString": "This is a test message",
       "rotString": "Guvf vf n grfg zrffntr"
     }
-  }
+}
